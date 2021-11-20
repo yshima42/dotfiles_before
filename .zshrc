@@ -1,3 +1,17 @@
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
+
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
+# Customize to your needs...
+
 # すっきりしたプロンプト表示 (不要ならコメントアウト)
 PROMPT='%~ %# '
  
@@ -19,6 +33,7 @@ alias so='source'
 alias be='bundle exec'
 alias ber='bundle exec ruby'
 alias val="valgrind --leak-check=full --show-leak-kinds=all -v"
+alias ll='ls -l'
 
 # エイリアス: git 系
 alias g='git'
