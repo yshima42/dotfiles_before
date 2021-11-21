@@ -51,4 +51,5 @@ alias gsu='git stash -u'
 alias gsp='git stash pop'
 alias ctags='/usr/local/Cellar/ctags/5.8/bin/ctags'
 
-
+# マイコマンドを作る
+export PATH=$HOME/command:$PATH
