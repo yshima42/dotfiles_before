@@ -24,10 +24,21 @@ zinit light supercrabtree/k
 autoload -U compinit && compinit -u
  
 # git のカラー表示
-git config --global color.ui auto 
+git config --global color.ui auto
+
+# git open
+zinit light paulirish/git-open
 
 # テーマの追加
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 
 # シンタックスハイライト
 zinit light zdharma-continuum/fast-syntax-highlighting
+
+zinit ice as"program" from"gh-r" mv"bat* -> bat" pick"bat/bat"
+zinit light sharkdp/bat
+
+# 以下はただのエイリアス設定
+if builtin command -v bat > /dev/null; then
+  alias cat="bat"
+fi
