@@ -28,3 +28,5 @@ autoload -U compinit && compinit -u
  
 # git のカラー表示
 git config --global color.ui auto 
+
+zinit ice depth=1; zinit light romkatv/powerlevel10k
