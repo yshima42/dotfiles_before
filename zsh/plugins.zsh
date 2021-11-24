@@ -29,4 +29,8 @@ autoload -U compinit && compinit -u
 # git のカラー表示
 git config --global color.ui auto 
 
+# テーマの追加
 zinit ice depth=1; zinit light romkatv/powerlevel10k
+
+# シンタックスハイライト
+zinit light zdharma-continuum/fast-syntax-highlighting
