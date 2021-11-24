@@ -2,15 +2,17 @@
 alias his='history'
 alias ...='cd ../..'
 alias ....='cd ../../..'
-alias e="emacs"
-alias v='vim'
-alias vi='vim'
+alias e="nvim"
+alias v='nvim'
+alias vi='nvim'
 alias mss='mysql.server start'
 alias so='source'
 alias be='bundle exec'
 alias ber='bundle exec ruby'
 alias val="valgrind --leak-check=full --show-leak-kinds=all -v"
 alias ll='ls -l'
+alias ls='ls -G'
+alias la='ls -a'
 
 # エイリアス: git 系
 alias g='git'
