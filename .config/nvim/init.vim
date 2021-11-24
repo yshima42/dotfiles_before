@@ -6,6 +6,8 @@ set shiftwidth=4
 set smarttab
 set softtabstop=4
 set mouse=a
+set encoding=UTF-8
+set noswapfile
 
 call plug#begin()
 
@@ -20,8 +22,9 @@ Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
 Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
+Plug 'nvim-treesitter/playground' " We recommend updating the parsers on update
 
-set encoding=UTF-8
 
 call plug#end()
 
