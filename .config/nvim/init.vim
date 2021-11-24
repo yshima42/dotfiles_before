@@ -24,7 +24,7 @@ Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
 Plug 'nvim-treesitter/playground' " We recommend updating the parsers on update
-
+Plug 'pbondoer/vim-42header'
 
 call plug#end()
 
