@@ -1,17 +1,3 @@
-#
-# Executes commands at the start of an interactive session.
-#
-# Authors:
-#   Sorin Ionescu <sorin.ionescu@gmail.com>
-#
-
-# Source Prezto.
-if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-fi
-
-# Customize to your needs...
-
 # エイリアス
 alias his='history'
 alias ...='cd ../..'
@@ -50,6 +36,3 @@ alias gsl='git stash list'
 alias gsu='git stash -u'
 alias gsp='git stash pop'
 alias ctags='/usr/local/Cellar/ctags/5.8/bin/ctags'
-
-# マイコマンドを作る
-export PATH=$HOME/dotfiles/.command:$PATH
