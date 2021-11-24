@@ -4,11 +4,8 @@ zinit snippet PZT::modules/helper/init.zsh
 # 補完
 zinit light zsh-users/zsh-autosuggestions
 
-# シンタックスハイライト
-#zinit light zdharma/fast-syntax-highlighting
-
 # Ctrl+r でコマンド履歴を検索
-#zinit light zdharma/history-search-multi-word
+zinit light zdharma-continuum/history-search-multi-word
 
 # クローンしたGit作業ディレクトリで、コマンド `git open` を実行するとブラウザでGitHubが開く
 zinit light paulirish/git-open
