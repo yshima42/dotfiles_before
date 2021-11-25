@@ -25,6 +25,7 @@ Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple c
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
 Plug 'nvim-treesitter/playground' " We recommend updating the parsers on update
 Plug 'pbondoer/vim-42header'
+Plug 'honza/vim-snippets'
 
 call plug#end()
 
