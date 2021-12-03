@@ -1,8 +1,9 @@
+main
+inc
+mainn
 ndef
 q
-main
 Inc
-inc
 modeline
 diso
 printf
@@ -11,5 +12,4 @@ fprintf
 snippet
 ISC
 snip
-mainn
 def
