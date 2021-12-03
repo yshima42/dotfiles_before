@@ -11,4 +11,9 @@ if [ ! -d ~/dotfiles ]; then
 	git clone https://github.com/yshima42/dotfiles.git
 fi
 
+#brew関連
 brew bundle -v --file=~/dotfiles/.bin/Brewfile
+
+ ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
+
+

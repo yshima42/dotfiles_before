@@ -39,6 +39,21 @@ set completeopt-=preview " For No Previews
 
 colorscheme jellybeans
 
+lua <<EOF
+require'nvim-treesitter.configs'.setup {
+  highlight = {
+    enable = true,
+    disable = {
+      'lua',
+      'ruby',
+      'toml',
+      'c_sharp',
+      'vue',
+    }
+  }
+}
+EOF
+
 " let g:NERDTreeDirArrowExpandable="+"
 " let g:NERDTreeDirArrowCollapsible="~"
 

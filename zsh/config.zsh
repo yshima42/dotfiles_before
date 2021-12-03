@@ -73,3 +73,5 @@ WORDCHARS='*?_-.[]~=&;!#$%^(){}<>'
 
 export PATH=$HOME/dotfiles/.command:$PATH
 
+# z
+. `brew --prefix`/etc/profile.d/z.sh
