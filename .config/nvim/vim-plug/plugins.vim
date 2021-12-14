@@ -38,4 +38,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/gv.vim'
     Plug 'justinmk/vim-sneak'
     Plug 'unblevable/quick-scope'
+    Plug 'liuchengxu/vim-which-key'
+    Plug 'voldikss/vim-floaterm'
 call plug#end()
+
