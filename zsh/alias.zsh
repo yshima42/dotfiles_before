@@ -1,4 +1,9 @@
+#tmp
+alias ms='./minishell'
+alias ms='./tests/script/test_line.sh'
+
 # エイリアス
+alias .alias='v ~/dotfiles/zsh/alias.zsh'
 alias his='history'
 alias ...='cd ../..'
 alias ....='cd ../../..'
@@ -17,6 +22,7 @@ alias la='ls -a'
 # エイリアス: git 系
 alias g='git'
 alias gs='git status'
+alias gsw='git switch'
 alias gb='git branch'
 alias gc='git checkout'
 alias gct='git commit'
