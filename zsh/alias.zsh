@@ -1,9 +1,10 @@
 #tmp
 alias ms='./minishell'
-alias ms='./tests/script/test_line.sh'
+alias mst='./tests/script/test_line.sh'
 
 # エイリアス
 alias .alias='v ~/dotfiles/zsh/alias.zsh'
+alias .plugin='v ~/dotfiles/zsh/plugins.zsh'
 alias his='history'
 alias ...='cd ../..'
 alias ....='cd ../../..'
