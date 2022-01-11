@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for file in `\find . -maxdepth 1 \( -name '*.c' -o -name '*.cc' -o -name '*.cpp' -o -name '*.h' -o -name '*.hpp'   \)`
+for file in `\find . -maxdepth 1 \(-name '*.h' -o -name '*.hpp'   \)`
 do
     if [ `cat ${file} | grep -c "INCLUDE_GUARD_UUID"`  -ge "2" ] ; then
         echo "${file} already has include guard."
