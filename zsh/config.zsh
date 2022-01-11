@@ -72,6 +72,7 @@ setopt extended_glob
 WORDCHARS='*?_-.[]~=&;!#$%^(){}<>'
 
 export PATH=$HOME/dotfiles/.command:$PATH
+export PATH=$PATH:/usr/local/Cellar/llvm/13.0.0_2/bin
 
 # z
 . `brew --prefix`/etc/profile.d/z.sh

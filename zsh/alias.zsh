@@ -1,8 +1,6 @@
-#tmp
-alias ms='./minishell'
-alias mst='./tests/script/test_line.sh'
-
 # エイリアス
+alias .command='cd ~/dotfiles/.command'
+alias rmi='rm -i'
 alias .alias='v ~/dotfiles/zsh/alias.zsh'
 alias .plugin='v ~/dotfiles/zsh/plugins.zsh'
 alias his='history'
