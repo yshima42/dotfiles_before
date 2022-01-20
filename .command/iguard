@@ -11,7 +11,9 @@ do
     UUID=`uuidgen`
     echo "#ifndef INCLUDE_GUARD_${FILE_USCORE}" >  ${file}
     echo "#define INCLUDE_GUARD_${FILE_USCORE}" >> ${file}
+    echo "" >> ${file}
     cat ${file}.bkup >> ${file}
+    echo "" >> ${file}
     echo "#endif" >> ${file}
     echo "" >> ${file}
     rm ${file}.bkup

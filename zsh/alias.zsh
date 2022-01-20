@@ -1,4 +1,5 @@
 # エイリアス
+alias sanitize="gcc -g -fsanitize=address"
 alias .command='cd ~/dotfiles/.command'
 alias rmi='rm -i'
 alias .alias='v ~/dotfiles/zsh/alias.zsh'
