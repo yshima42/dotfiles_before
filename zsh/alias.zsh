@@ -1,4 +1,8 @@
 # エイリアス
+alias .tmux='nvim ~/dotfiles/.tmux.conf'
+alias .snippet='cd ~/dotfiles/.config/nvim/UltiSnips/'
+alias .nvim='cd ~/dotfiles/.config/nvim'
+alias fm="clang-format -i *.cpp; clang-format -i *.hpp"
 alias sanitize="gcc -g -fsanitize=address"
 alias .command='cd ~/dotfiles/.command'
 alias rmi='rm -i'
